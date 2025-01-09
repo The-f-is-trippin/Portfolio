@@ -1,0 +1,75 @@
+
+.navbar {
+    background-color: #000;
+}
+.navbar-brand {
+    font-weight: bold;
+    color: #f8f9fa !important;
+}
+.navbar .nav-link {
+    color: #f8f9fa !important;
+}
+.navbar .nav-link:hover {
+    color: #2b3cf1 !important;
+}
+.section {
+    padding: 60px 0;
+}
+.section-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.section-title-1{
+    padding: 60px 0;
+    text-align: center;
+    color: #ffffff;
+}
+.card {
+    border: 1px solid #343a40;
+    border-radius: 8px;
+}
+.card:hover {
+    box-shadow: 0 4px 8px rgb(0, 68, 151);
+}
+footer {
+    background-color: #212529;
+    color: #f8f9fa;
+    padding: 20px 0;
+}
+footer a {
+    color: #6c757d;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #ffffff;
+}
+
+/* Style pour la vidéo de fond */
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    opacity: 0.7;
+}
+
+.fullscreen-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1; 
+}
+.abou-text{
+color: #ffffff;
+}
+.simp-text{
+    color: #ffffff;
+}
